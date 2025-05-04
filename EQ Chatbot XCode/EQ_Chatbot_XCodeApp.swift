@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct EQ_Chatbot_XCodeApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
