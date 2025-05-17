@@ -7,15 +7,11 @@
 
 import SwiftUI
 
+/// ContentView is no longer used as the main view
+/// It's kept for compatibility and redirects to MainView
 struct ContentView: View {
   var body: some View {
-    VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, world!")
-    }
-    .padding()
+    MainView()
   }
 }
 
